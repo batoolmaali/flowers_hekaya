@@ -1,0 +1,49 @@
+[26-Sep-2019 07:12:41 UTC] PHP Warning:  require(/home/nexus/public_html/ecommerce/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/nexus/public_html/ecommerce/index.php on line 22
+[26-Sep-2019 07:12:41 UTC] PHP Fatal error:  require(): Failed opening required '/home/nexus/public_html/ecommerce/../bootstrap/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/nexus/public_html/ecommerce/index.php on line 22
+[26-Sep-2019 07:12:52 UTC] PHP Warning:  require(/home/nexus/public_html/ecommerce/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home/nexus/public_html/ecommerce/index.php on line 22
+[26-Sep-2019 07:12:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/nexus/public_html/ecommerce/../bootstrap/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/nexus/public_html/ecommerce/index.php on line 22
+[26-Sep-2019 07:58:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/nexus/public_html/geek/app/Http/Controllers/web_api.php on line 16
+[26-Sep-2019 07:58:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/nexus/public_html/geek/app/Http/Controllers/web_api.php on line 16
+[26-Sep-2019 07:58:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/nexus/public_html/geek/app/Http/Controllers/web_api.php on line 16
+[26-Sep-2019 07:58:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/nexus/public_html/geek/app/Http/Controllers/web_api.php on line 16
+[26-Sep-2019 07:58:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/nexus/public_html/geek/app/Http/Controllers/web_api.php on line 16
+[01-Oct-2019 06:30:27 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[01-Oct-2019 06:33:55 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[01-Oct-2019 07:11:36 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[03-Oct-2019 07:22:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/nexus/public_html/geek/app/Http/Controllers/web_api.php on line 107
+[05-Oct-2019 12:13:36 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on null in /home/nexus/public_html/geek/app/Http/Controllers/category.php on line 69
+[06-Oct-2019 07:08:02 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/nexus/public_html/geek/storage/framework/views/d37f0737cd996ee5844a3dc1602611e15343aef0.php on line 71
+[06-Oct-2019 07:08:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/nexus/public_html/geek/storage/framework/views/d37f0737cd996ee5844a3dc1602611e15343aef0.php on line 71
+[06-Oct-2019 07:20:58 UTC] PHP Fatal error:  Class 'Form' not found in /home/nexus/public_html/geek/storage/framework/views/d37f0737cd996ee5844a3dc1602611e15343aef0.php on line 74
+[06-Oct-2019 07:22:10 UTC] PHP Fatal error:  Class 'Form' not found in /home/nexus/public_html/geek/storage/framework/views/d37f0737cd996ee5844a3dc1602611e15343aef0.php on line 74
+[06-Oct-2019 07:22:37 UTC] PHP Fatal error:  Class 'Form' not found in /home/nexus/public_html/geek/storage/framework/views/d37f0737cd996ee5844a3dc1602611e15343aef0.php on line 74
+[06-Oct-2019 13:41:03 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/nexus/public_html/geek/app/Http/Controllers/Main_controller.php on line 25
+[06-Oct-2019 13:44:42 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Auth' not found in /home/nexus/public_html/geek/app/Http/Controllers/Main_controller.php on line 25
+[06-Oct-2019 14:04:37 UTC] PHP Fatal error:  Class 'Form' not found in /home/nexus/public_html/geek/storage/framework/views/38b8f91e8a1e66008138ffe9d4505b51ec2ee8e3.php on line 1
+[18-Oct-2019 08:41:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\App in /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[18-Oct-2019 08:41:05 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\App in /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[18-Oct-2019 08:41:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\App in /home4/wadiserv/public_html/thurayaalnajjar/teckit/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[18-Oct-2019 10:30:51 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/wadiserv/public_html/thurayaalnajjar/teckit/storage/framework/views/902e033d44eb0da5e0199fb05de8749ec22d70b9.php on line 30
+[21-Oct-2019 08:00:28 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\tickets::getticket() in /home4/wadiserv/public_html/thurayaalnajjar/teckit/app/Http/Controllers/tickets.php on line 142
+[21-Oct-2019 20:34:34 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\report::indexreportondate() in /home4/wadiserv/public_html/thurayaalnajjar/teckit/app/Http/Controllers/report.php on line 81
+[21-Oct-2019 20:34:44 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\report::indexreportondate() in /home4/wadiserv/public_html/thurayaalnajjar/teckit/app/Http/Controllers/report.php on line 81
+[21-Oct-2019 20:36:34 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\report::indexreportondate() in /home4/wadiserv/public_html/thurayaalnajjar/teckit/app/Http/Controllers/report.php on line 81
+[21-Oct-2019 20:52:34 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home4/wadiserv/public_html/thurayaalnajjar/teckit/app/Http/Controllers/report.php on line 121
